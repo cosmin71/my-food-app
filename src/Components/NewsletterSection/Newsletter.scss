@@ -1,0 +1,53 @@
+.emailelement {
+  width: 60%;
+  font-size: 12px !important;
+  background-color: rgb(98, 119, 57) !important;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+.card {
+  background-color: rgb(98, 119, 57) !important;
+  color: bisque;
+  width: 30%;
+  height: 90px !important;
+  border-radius: 1.5rem !important;
+  font-size: 10px;
+  margin-top: 2.5rem;
+  display: flex;
+
+}
+
+.btn-subscribe {
+  width: 26%;
+  font-size: 10px !important;
+  border-radius: 2rem !important;
+  padding: 0 !important;
+  color: bisque !important;
+  height: 20px;
+  margin-bottom: 0.4rem;
+}
+
+
+$breakpoint-mobile: 600px;
+
+@media (max-width: $breakpoint-mobile) {
+  .card {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+}
+
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 600px;
+
+@media (min-width:$breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+  .card {
+    width: 40%;
+
+    .btn-subscribe {
+      font-size: 10px;
+      width: 30%;
+    }
+  }
+}

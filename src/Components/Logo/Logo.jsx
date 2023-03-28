@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Logo=()=>{
-  return(
+const Logo = () => {
+  return (
     <h2 className='logo'>My Food</h2>
   )
 }

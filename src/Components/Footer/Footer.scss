@@ -1,0 +1,20 @@
+.footer {
+  background-color: rgb(241, 230, 197);
+  color: darkgreen;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around
+}
+
+$breakpoint-mobile: 600px;
+
+@media (max-width: $breakpoint-mobile) {
+  .footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+}
