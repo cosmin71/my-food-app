@@ -9,9 +9,7 @@ const Header = () => {
       <Logo />
       <Nav />
       <SearchBar />
-
     </div>
-
   )
 }
 export default Header

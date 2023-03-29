@@ -6,7 +6,6 @@ const Footerlinks = () => {
     <div className='footer-Link'>
       <Container>
         <h5>My Food</h5>
-        {/* <hr style={{width:'200px', color:'darkgreen'}}/> */}
         <Navbar >
           <Row>
             <Col>
